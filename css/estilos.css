@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "ShadowsIntoLightTwo";
+  src: url("../../font/ShadowsIntoLightTwo-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FingerPaint";
+  src: url("../../font/FingerPaint-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 50vh;
+  background-color: #000000;
+}
+.header__container h1 {
+  font-family: "FingerPaint", cursive;
+  color: #ffffff;
+  font-size: 5em;
+  flex-wrap: wrap;
+  max-width: 100%;
+  max-height: 100%;
+}
+.header__container p {
+  font-family: "FingerPaint", cursive;
+  color: #ffffff;
+  text-align: center;
+}
+.header__container a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.6666666667em;
+  transition: all 2s ease;
+}
+.header__container a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=estilos.css.map */

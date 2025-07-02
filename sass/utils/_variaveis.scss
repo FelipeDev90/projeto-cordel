@@ -1,5 +1,11 @@
-$title-font: "FingerPaint", cursive;
-$text-font: "ShadowsIntoLightTwo", cursive;
+@use'../base/fonts';
+
+$title-font: "ShadowsIntoLightTwo", cursive;
+$text-font: "FingerPaint", cursive;
 
 $cor-header: #000000;
 $cor-texto: #ffffff;
+
+$title-size: 5em;
+
+$padding: 30px;
