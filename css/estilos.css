@@ -74,12 +74,12 @@
     background-image: url("../imagens/background001_1024px.webp");
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .main__img1container {
     background-image: url("../imagens/background001_768px.webp");
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 430px) {
   .main__img1container {
     background-image: url("../imagens/background001_480px.webp");
   }
@@ -89,7 +89,7 @@
   width: fit-content;
   background-color: rgba(0, 0, 0, 0.4);
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .main__img1container .main__p {
     font-size: 1.3rem;
   }
@@ -106,12 +106,12 @@
     background-image: url("../imagens/background002_1024px.webp");
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .main__img2container {
     background-image: url("../imagens/background002_768px.webp");
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 430px) {
   .main__img2container {
     background-image: url("../imagens/background002_480px.webp");
   }
@@ -121,7 +121,7 @@
   width: fit-content;
   background-color: rgba(0, 0, 0, 0.4);
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .main__img2container .main__p {
     font-size: 1.3rem;
   }
