@@ -51,4 +51,12 @@
   color: #ffffff;
 }
 
+.main__container {
+  display: flex;
+}
+
+.main__p {
+  font-size: 5em;
+}
+
 /*# sourceMappingURL=estilos.css.map */
