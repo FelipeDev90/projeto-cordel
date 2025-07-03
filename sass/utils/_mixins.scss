@@ -1,16 +1,16 @@
 @mixin background-responsive($nome-imagem) {
-  background: url("../../imagens/#{$nome-imagem}_1600px.webp");
+  background: url("../imagens/#{$nome-imagem}_1600px.webp");
   background-size: cover;
   background-position: right center;
   background-attachment: fixed;
 
   @media (max-width: 1024px) {
-    background-image: url("../../imagens/#{$nome-imagem}_1024px.webp");
+    background-image: url("../imagens/#{$nome-imagem}_1024px.webp");
   }
   @media (max-width: 768px) {
-    background-image: url("../../imagens/#{$nome-imagem}_768px.webp");
+    background-image: url("../imagens/#{$nome-imagem}_768px.webp");
   }
   @media (max-width: 480px) {
-    background-image: url("../../imagens/#{$nome-imagem}_480px.webp");
+    background-image: url("../imagens/#{$nome-imagem}_480px.webp");
   }
 }
