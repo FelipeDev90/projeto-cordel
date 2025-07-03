@@ -1,0 +1,16 @@
+@use "../utils/variaveis";
+
+.footer__container {
+  height: 7vh;
+  width: auto;
+  background-color: variaveis.$cor-fundo-header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .footer__p {
+    font-family: variaveis.$text-font;
+    color: variaveis.$cor-texto;
+    padding-left: variaveis.$spacing-sm;
+  }
+}

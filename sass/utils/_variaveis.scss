@@ -3,9 +3,28 @@
 $title-font: "ShadowsIntoLightTwo", cursive;
 $text-font: "FingerPaint", cursive;
 
-$cor-header: #000000;
+$cor-fundo-header: #000000;
 $cor-texto: #ffffff;
 
 $title-size: 5em;
+$text-size: 1.3rem;
 
-$padding: 30px;
+
+// Espaçamento de linha
+$line-height-base: 1.5;
+$line-height-title: 1.2;
+$line-height-texto: 1.6;
+
+// Espaçamentos (margens, paddings, gaps)
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// Paddings padrões
+$padding-section: $spacing-xl $spacing-md;
+$padding-container: $spacing-lg;
+$padding-card: $spacing-md;
+$padding-texto: $spacing-sm;

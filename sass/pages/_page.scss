@@ -1,6 +1,46 @@
 @use "../utils/variaveis";
+@use "../utils/mixins";
 
 .main__container {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+}
 
+.main__p {
+  font-family: variaveis.$title-font;
+  font-size: calc(variaveis.$text-size * 1.5);
+  padding: variaveis.$spacing-md;
+  font-weight: 700;
+}
+
+.main__img1container {
+  @include mixins.background-responsive("background001");
+
+  .main__p {
+    color: variaveis.$cor-texto;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  @media (max-width: 768px) {
+    .main__p {
+      font-size: variaveis.$text-size;
+    }
+  }
+}
+
+.main__img2container {
+  @include mixins.background-responsive("background002");
+
+  .main__p {
+    color: variaveis.$cor-fundo-header;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  @media (max-width: 768px) {
+    .main__p {
+      font-size: variaveis.$text-size;
+    }
+  }
 }

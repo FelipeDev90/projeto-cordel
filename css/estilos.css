@@ -53,10 +53,92 @@
 
 .main__container {
   display: flex;
+  flex-direction: column;
 }
 
 .main__p {
-  font-size: 5em;
+  font-family: "ShadowsIntoLightTwo", cursive;
+  font-size: 1.95rem;
+  padding: 16px;
+  font-weight: 700;
+}
+
+.main__img1container {
+  background: url("../../imagens/background001_1600px.webp");
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+}
+@media (max-width: 1024px) {
+  .main__img1container {
+    background-image: url("../../imagens/background001_1024px.webp");
+  }
+}
+@media (max-width: 768px) {
+  .main__img1container {
+    background-image: url("../../imagens/background001_768px.webp");
+  }
+}
+@media (max-width: 480px) {
+  .main__img1container {
+    background-image: url("../../imagens/background001_480px.webp");
+  }
+}
+.main__img1container .main__p {
+  color: #ffffff;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 768px) {
+  .main__img1container .main__p {
+    font-size: 1.3rem;
+  }
+}
+
+.main__img2container {
+  background: url("../../imagens/background002_1600px.webp");
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+}
+@media (max-width: 1024px) {
+  .main__img2container {
+    background-image: url("../../imagens/background002_1024px.webp");
+  }
+}
+@media (max-width: 768px) {
+  .main__img2container {
+    background-image: url("../../imagens/background002_768px.webp");
+  }
+}
+@media (max-width: 480px) {
+  .main__img2container {
+    background-image: url("../../imagens/background002_480px.webp");
+  }
+}
+.main__img2container .main__p {
+  color: #000000;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 768px) {
+  .main__img2container .main__p {
+    font-size: 1.3rem;
+  }
+}
+
+.footer__container {
+  height: 7vh;
+  width: auto;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__container .footer__p {
+  font-family: "FingerPaint", cursive;
+  color: #ffffff;
+  padding-left: 8px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
